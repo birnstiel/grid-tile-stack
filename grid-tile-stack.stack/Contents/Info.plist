@@ -5,17 +5,13 @@
 	<key>CFBundleIdentifier</key>
 	<string>de.til-birnstiel.stacks.gridtilestack</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.2</string>
-	<key>CFBundleVersion</key>
-	<string>102</string>
+	<string>0.1</string>
 	<key>RWAddonAuthor</key>
-	<string>Stacks4Stacks</string>
+	<string>Til Birnstiel</string>
 	<key>RWAddonManagerIconAsset</key>
 	<string>icon</string>
 	<key>RWAddonSupportURL</key>
 	<string>http://til-birnstiel.de/contact</string>
-	<key>SUFeedURL</key>
-	<string>http://www.stacks4stacks.com/appcast/appcast.php</string>
 	<key>author</key>
 	<string>Til Birnstiel</string>
 	<key>cssFile</key>
@@ -129,20 +125,21 @@
 		</dict>
 	</array>
 	<key>group</key>
-	<string>TilBirnstiel</string>
+	<string>Content</string>
 	<key>helpURL</key>
 	<string>http://til-birnstiel.de/contact</string>
 	<key>icon</key>
 	<string>icon</string>
 	<key>infoURL</key>
-	<string>http://www.til-birnstiel.de/stacks</string>
+	<string>https://github.com/birnstiel/grid-tile-stack</string>
 	<key>subtitle</key>
 	<string>A tile with hover-over-text and background image</string>
 	<key>tags</key>
 	<array>
-		<string>Development</string>
-		<string>Utility</string>
+		<string>Hover</string>
+		<string>Grid</string>
 		<string>Content</string>
+		<string>Tile</string>
 	</array>
 	<key>templateFile</key>
 	<string>template.html</string>
