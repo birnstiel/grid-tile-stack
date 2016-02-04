@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>de.til-birnstiel.stacks.gridtilestack</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.2</string>
+	<key>CFBundleVersion</key>
+	<string>102</string>
+	<key>RWAddonAuthor</key>
+	<string>Stacks4Stacks</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://til-birnstiel.de/contact</string>
+	<key>SUFeedURL</key>
+	<string>http://www.stacks4stacks.com/appcast/appcast.php</string>
+	<key>author</key>
+	<string>Til Birnstiel</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Contain</string>
+					<key>value</key>
+					<string>contain</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Cover</string>
+					<key>value</key>
+					<string>cover</string>
+				</dict>
+			</array>
+			<key>default</key>
+			<string>cover</string>
+			<key>id</key>
+			<string>img_mode</string>
+			<key>title</key>
+			<string>Image Size</string>
+			<key>toolTip</key>
+			<string>Select the way the background image is positioned</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg</string>
+			<key>id</key>
+			<string>background_image</string>
+			<key>title</key>
+			<string>Frame Image</string>
+			<key>toolTip</key>
+			<string>Select Image URL for the Background. Use %rapidweaverAssetPath%/myimage.jpg to access resources.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#1E1E1E</string>
+			<key>id</key>
+			<string>background_color</string>
+			<key>title</key>
+			<string>Frame Color</string>
+			<key>tooTip</key>
+			<string>Set the color of the outmost edge of the tile</string>
+			<key>type</key>
+			<string>color</string>
+			<key>allowsOpacity</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>rgba(0, 0, 0, 0.1)</string>
+			<key>id</key>
+			<string>before_color</string>
+			<key>title</key>
+			<string>Initial Color</string>
+			<key>tooTip</key>
+			<string>Set the color overlay of the initial content</string>
+			<key>type</key>
+			<string>color</string>
+			<key>allowsOpacity</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>rgba(256, 256, 256, 0.50)</string>
+			<key>id</key>
+			<string>after_color</string>
+			<key>title</key>
+			<string>Hover Color</string>
+			<key>tooTip</key>
+			<string>Set the color overlay of the hover content</string>
+			<key>type</key>
+			<string>color</string>
+			<key>allowsOpacity</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Title</string>
+			<key>id</key>
+			<string>tile_title</string>
+			<key>title</key>
+			<string>Title</string>
+			<key>toolTip</key>
+			<string>Set the title of the tile</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#FFF</string>
+			<key>id</key>
+			<string>title_color</string>
+			<key>title</key>
+			<string>Title Color</string>
+			<key>toolTip</key>
+			<string>Set the color of the title</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>TilBirnstiel</string>
+	<key>helpURL</key>
+	<string>http://til-birnstiel.de/contact</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>infoURL</key>
+	<string>http://www.til-birnstiel.de/stacks</string>
+	<key>subtitle</key>
+	<string>A tile with hover-over-text and background image</string>
+	<key>tags</key>
+	<array>
+		<string>Development</string>
+		<string>Utility</string>
+		<string>Content</string>
+	</array>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Grid Tile Stack</string>
+</dict>
+</plist>
