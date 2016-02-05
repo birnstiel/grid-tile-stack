@@ -218,6 +218,12 @@
 			<string>Set the first breakpoint width</string>
 			<key>type</key>
 			<string>number</string>
+			<key>min</key>
+			<integer>1</integer>
+			<key>max</key>
+			<integer>10000</integer>
+			<key>round</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>default</key>
@@ -230,6 +236,12 @@
 			<string>Set the second breakpoint width</string>
 			<key>type</key>
 			<string>number</string>
+			<key>min</key>
+			<integer>1</integer>
+			<key>max</key>
+			<integer>10000</integer>
+			<key>round</key>
+			<true/>
 		</dict>
 	</array>
 	<key>group</key>
