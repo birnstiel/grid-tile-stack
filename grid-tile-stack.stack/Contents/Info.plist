@@ -5,7 +5,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>de.til-birnstiel.stacks.gridtilestack</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.1</string>
+	<string>0.3</string>
 	<key>RWAddonAuthor</key>
 	<string>Til Birnstiel</string>
 	<key>RWAddonManagerIconAsset</key>
@@ -113,7 +113,7 @@
 		</dict>
 		<dict>
 			<key>default</key>
-			<string>#FFF</string>
+			<string>#FFFFFF</string>
 			<key>id</key>
 			<string>title_color</string>
 			<key>title</key>
@@ -122,6 +122,114 @@
 			<string>Set the color of the title</string>
 			<key>type</key>
 			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#000000</string>
+			<key>id</key>
+			<string>text_color</string>
+			<key>title</key>
+			<string>Text Color</string>
+			<key>toolTip</key>
+			<string>Set the color of the text</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>8vw</string>
+			<key>id</key>
+			<string>fs0b</string>
+			<key>title</key>
+			<string>Title Size 0</string>
+			<key>toolTip</key>
+			<string>Font size of the title below breakpoint 1</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>5vw</string>
+			<key>id</key>
+			<string>fs1b</string>
+			<key>title</key>
+			<string>Title Size 1</string>
+			<key>toolTip</key>
+			<string>Font size of the title below breakpoint 2</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>60px</string>
+			<key>id</key>
+			<string>fs2b</string>
+			<key>title</key>
+			<string>Title Size 2</string>
+			<key>toolTip</key>
+			<string>Font size of the title above breakpoint 2</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>4vw</string>
+			<key>id</key>
+			<string>fs0a</string>
+			<key>title</key>
+			<string>Text Size 0</string>
+			<key>toolTip</key>
+			<string>Font size of the text below breakpoint 1</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>2vw</string>
+			<key>id</key>
+			<string>fs1a</string>
+			<key>title</key>
+			<string>Text Size 1</string>
+			<key>toolTip</key>
+			<string>Font size of the text below breakpoint 2</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>16px</string>
+			<key>id</key>
+			<string>fs2a</string>
+			<key>title</key>
+			<string>Text Size 2</string>
+			<key>toolTip</key>
+			<string>Font size of the text above breakpoint 2</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>700</string>
+			<key>id</key>
+			<string>minwidth1</string>
+			<key>title</key>
+			<string>Breakpoint 1</string>
+			<key>toolTip</key>
+			<string>Set the first breakpoint width</string>
+			<key>type</key>
+			<string>number</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>1200</string>
+			<key>id</key>
+			<string>minwidth2</string>
+			<key>title</key>
+			<string>Breakpoint 2</string>
+			<key>toolTip</key>
+			<string>Set the second breakpoint width</string>
+			<key>type</key>
+			<string>number</string>
 		</dict>
 	</array>
 	<key>group</key>

@@ -5,10 +5,13 @@
 <div id="square-%id%">
   <div class="content">
     <div class="table bg im1">
-      <div class="table-cell before">%id=tile_title%</div>
-      <div class="table-cell after">
+      <input type="radio" id="tab-1-%id%" name="tab-group-%id%" unchecked>
+      <label for="tab-1-%id%" class="table-cell before">%id=tile_title%</label>
+
+      <input type="radio" id="tab-2-%id%" name="tab-group-%id%" checked>
+      <label for="tab-2-%id%" class="table-cell after">
       %slice%
-      </div>
+      </label>
     </div>
   </div>
 </div>
