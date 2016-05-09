@@ -5,7 +5,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>de.til-birnstiel.stacks.gridtilestack</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.3</string>
+	<string>0.31</string>
 	<key>RWAddonAuthor</key>
 	<string>Til Birnstiel</string>
 	<key>RWAddonManagerIconAsset</key>
